@@ -23,7 +23,7 @@ Notiflix.Notify.init({
   },
 });
 
-let schema = yup.object().shape({
+const schema = yup.object().shape({
   name: yup
     .string()
     .matches(
